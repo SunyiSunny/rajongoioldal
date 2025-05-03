@@ -1,4 +1,62 @@
 .custom-header {
-    background-image: url(header.jpg);
-    
+    background: no-repeat  url(header2.jpg);
+    background-size: 100%;
+    background-position-y: 25%;
+    position: relative;
+}
+.custom-header::before, 
+.own-bg::before,
+.sykes::before,
+.nicholls::before,
+.malia::before,
+.kean::before
+{
+    content: "";
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 90%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.custom-header h1, .custom-header p,
+.own-bg h2, .own-bg p,
+.sykes h2, .sykes p,
+.nicholls h2, .nicholls p,
+.malia h2, .malia p,
+.kean h2, .kean p {
+    z-index: 2;
+    position: relative;
+}
+.own-bg {
+    background: no-repeat  url(promo\ pic.jpg);
+    background-size: 100%;
+    background-position-y: 25%;
+    position: relative;
+}
+.sykes {
+    background: no-repeat  url(Sykes2.jpg);
+    background-size: 100%;
+    background-position-y: 25%;
+    position: relative;
+}
+.nicholls {
+    background: no-repeat  url(nicholls2.jpg);
+    background-size: 100%;
+    background-position-y: 25%;
+    position: relative;
+}
+.malia {
+    background: no-repeat  url(malia.jpg);
+    background-size: 100%;
+    background-position-y: 25%;
+    position: relative;
+}
+.kean {
+    background: no-repeat  url(kean2.jpg);
+    background-size: 100%;
+    background-position-y: 25%;
+    position: relative;
 }
