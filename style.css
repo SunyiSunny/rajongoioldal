@@ -31,35 +31,35 @@
     position: relative;
 }
 .own-bg {
-    background: no-repeat center url(promo\ pic.jpg);
+    background: no-repeat center center url(promo\ pic.jpg) ;
     background-size: 100%;
     background-position-y: 25%;
     position: relative;
     background-size: cover;
 }
 .sykes {
-    background: no-repeat center url(Sykes2.jpg);
+    background: no-repeat center center url(Sykes2.jpg);
     background-size: 100%;
     background-position-y: 25%;
     position: relative;
     background-size: cover;
 }
 .nicholls {
-    background: no-repeat center url(nicholls2.jpg);
+    background: no-repeat center center url(nicholls2.jpg);
     background-size: 100%;
     background-position-y: 25%;
     position: relative;
     background-size: cover;
 }
 .malia {
-    background: no-repeat center url(malia.jpg);
+    background: no-repeat center center url(malia.jpg);
     background-size: 100%;
     background-position-y: 25%;
     position: relative;
     background-size: cover;
 }
 .kean {
-    background: no-repeat center url(kean2.jpg);
+    background: no-repeat center center url(kean2.jpg);
     background-size: 100%;
     background-position-y: 25%;
     position: relative;
