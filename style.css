@@ -35,30 +35,35 @@
     background-size: 100%;
     background-position-y: 25%;
     position: relative;
+    background-size: cover;
 }
 .sykes {
     background: no-repeat  url(Sykes2.jpg);
     background-size: 100%;
     background-position-y: 25%;
     position: relative;
+    background-size: cover;
 }
 .nicholls {
     background: no-repeat  url(nicholls2.jpg);
     background-size: 100%;
     background-position-y: 25%;
     position: relative;
+    background-size: cover;
 }
 .malia {
     background: no-repeat  url(malia.jpg);
     background-size: 100%;
     background-position-y: 25%;
     position: relative;
+    background-size: cover;
 }
 .kean {
     background: no-repeat  url(kean2.jpg);
     background-size: 100%;
     background-position-y: 25%;
     position: relative;
+    background-size: cover;
 }
 span:hover {
     
