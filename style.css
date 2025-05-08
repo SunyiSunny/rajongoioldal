@@ -77,30 +77,3 @@
     position: relative;
     background-size: cover;
 }
-
-@media (max-width: 576px) {
-    .wrapping-group:not(#_)>* {
-        &:first-child {
-            flex: 1 0 100%;
-            border-top-right-radius: 0.25rem;
-            border-bottom-left-radius: 0;
-
-            .btn {
-                width: 100%;
-            }
-        }
-
-        &:not(:first-child) {
-            margin-top: -1px;
-        }
-
-        &.form-control {
-            margin-left: 0;
-            border-bottom-left-radius: 0.25rem;
-        }
-
-        &:last-child {
-            border-top-right-radius: 0;
-        }
-    }
-}
