@@ -1,16 +1,16 @@
 .custom-header {
-    background: no-repeat  url(header2.jpg);
+    background: no-repeat url(header2.jpg);
     background-size: 100%;
     background-position-y: 25%;
     position: relative;
 }
-.custom-header::before, 
+
+.custom-header::before,
 .own-bg::before,
 .sykes::before,
 .nicholls::before,
 .malia::before,
-.kean::before
-{
+.kean::before {
     content: "";
     position: absolute;
     top: 5%;
@@ -21,22 +21,31 @@
     background: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
-.custom-header h1, .custom-header p,
-.own-bg h2, .own-bg p,
-.sykes h2, .sykes p,
-.nicholls h2, .nicholls p,
-.malia h2, .malia p,
-.kean h2, .kean p {
+
+.custom-header h1,
+.custom-header p,
+.own-bg h2,
+.own-bg p,
+.sykes h2,
+.sykes p,
+.nicholls h2,
+.nicholls p,
+.malia h2,
+.malia p,
+.kean h2,
+.kean p {
     z-index: 2;
     position: relative;
 }
+
 .own-bg {
-    background: no-repeat center center url(promo\ pic.jpg) ;
+    background: no-repeat center center url(promo\ pic.jpg);
     background-size: 100%;
     background-position-y: 25%;
     position: relative;
     background-size: cover;
 }
+
 .sykes {
     background: no-repeat center center url(Sykes2.jpg);
     background-size: 100%;
@@ -44,6 +53,7 @@
     position: relative;
     background-size: cover;
 }
+
 .nicholls {
     background: no-repeat center center url(nicholls2.jpg);
     background-size: 100%;
@@ -51,6 +61,7 @@
     position: relative;
     background-size: cover;
 }
+
 .malia {
     background: no-repeat center center url(malia.jpg);
     background-size: 100%;
@@ -58,10 +69,38 @@
     position: relative;
     background-size: cover;
 }
+
 .kean {
     background: no-repeat center center url(kean2.jpg);
     background-size: 100%;
     background-position-y: 25%;
     position: relative;
     background-size: cover;
+}
+
+@media (max-width: 576px) {
+    .wrapping-group:not(#_)>* {
+        &:first-child {
+            flex: 1 0 100%;
+            border-top-right-radius: 0.25rem;
+            border-bottom-left-radius: 0;
+
+            .btn {
+                width: 100%;
+            }
+        }
+
+        &:not(:first-child) {
+            margin-top: -1px;
+        }
+
+        &.form-control {
+            margin-left: 0;
+            border-bottom-left-radius: 0.25rem;
+        }
+
+        &:last-child {
+            border-top-right-radius: 0;
+        }
+    }
 }
